@@ -1,0 +1,18 @@
+h1, table {
+    text-align: center;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tbody [rowspan],
+tbody [rowspan] ~ td {
+	border-top: 5px solid black;
+}
+
+span {
+    display: block;
+}
